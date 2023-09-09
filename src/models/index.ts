@@ -1,1 +1,1 @@
-export * from './Action.model'
+export * from './action.model';

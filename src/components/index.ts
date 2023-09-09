@@ -1,2 +1,2 @@
 export * from './Test'
-export * from './TestCustomHook'
+export * from '../dashboard/components/TestCustomHook'

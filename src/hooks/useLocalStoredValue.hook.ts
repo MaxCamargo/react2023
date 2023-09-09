@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export function useLocalTestCustomHook<T>() {
-    const [storedValue, setStoredValue] = useState<T>({});
+    const [storedValue, setStoredValue] = useState<T>({} as T);
 
     const storeValue =(key: string, value: T) => {
         const formattedValue = {...storeValue, [key]: value};

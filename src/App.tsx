@@ -1,12 +1,14 @@
 import './App.css'
-import { Test } from './components/Test/Test'
-import { TestCustomHook } from './components/TestCustomHook/TestCustomHook'
+//import { Test } from './components/Test/Test'
+//import { TestCustomHook } from './components/TestCustomHook/TestCustomHook'
+import { Dashboard } from './dashboard/Dashboard'
 
 function App() {
   return (
     <>
-      <Test />
-      <TestCustomHook />
+      {/* <Test />
+      <TestCustomHook /> */}
+      <Dashboard />
     </>
   )
 }
